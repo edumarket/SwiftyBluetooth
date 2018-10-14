@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'SwiftyBluetooth'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.license      =  'MIT'
   s.homepage     = 'https://github.com/jordanebelanger/SwiftyBluetooth'
-  s.authors      = { 'Jordane Belanger' => 'jordane.belanger@gmail.com' }
-  s.summary      = 'Fully featured closures based library for CoreBluetooth'
+  s.authors      = { 'Irek Zayniev' => 'izayniev@gmail.com' }
+  s.summary      = 'Fully featured closures based library for CoreBluetooth with watchOS support'
   s.source       = { :git => 'https://github.com/edumarket/SwiftyBluetooth.git', :tag => s.version }
   s.source_files = 'SwiftyBluetooth/Source/*.swift'
   s.requires_arc = true
